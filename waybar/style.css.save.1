@@ -1,0 +1,132 @@
+@import "colors/colors.css";
+
+/* Borde de la barra completa */
+* {
+    background: transparent;   /* Fondo */
+    color: #B388FF;        /* Texto/iconos */
+    font-family: "JetBrainsMono Nerd Font";
+
+    border: 1px #B388FF;  /* Grosor y color del borde */
+    border-radius: 5px;         /* Bordes redondeados */
+}
+
+tooltip {
+    background-color: @fg;
+    border-radius: 15px;
+    color: 
+tooltip {
+    background-color: @fg;
+    border-radius: 15px;
+    color: @bg;
+    border: 0;;
+    border: 0;
+}
+
+window#waybar {
+    background: transparent;
+    border-radius: 30px;
+    padding-top: 2px;
+    color:#B388FF;
+	  
+}
+
+tooltip label {
+  color: @bg;
+}
+
+.modules-left {
+    background: @bg;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+
+.modules-center {
+    background: @bg;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+
+.modules-right {
+    background: @bg;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+
+#workspaces {
+    padding: 2px 2px;
+    background: @bg;
+    margin: 7px 5px;
+}
+
+#workspaces button {
+    padding: 0px 2px;
+    background: transparent;
+    font-size: 24px;
+    color: @fg;
+    border-radius: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    background: @fg;
+    color: @bg;
+    border-radius: 15px;
+}
+
+#clock {
+    padding: 0px 10px;
+    color: #B388FF;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+    transition: all 150ms ease-in-out;
+}
+
+#battery {
+    padding: 0px 10px;
+	color: #B388FF;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#pulseaudio {
+    padding: 0px 10px;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+    font-size: 18px;
+}
+
+#custom-power {
+    font-size: 16px;
+    padding: 0px 11px;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#backlight {
+    padding: 0px 11px;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+    font-size: 16px;
+}
+
+#network {
+    padding: 0 10px;
+    background: transparent;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
+
+#mpris {
+    font-size: 16px;
+    padding: 0px 11px;
+    background: transparent;
+    color: @fg;
+    border-radius: 30px;
+    margin: 7px 5px;
+}
